@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins, Noto_Sans_KR } from "next/font/google";
+import { Poppins, Noto_Sans_KR, Cinzel } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -15,6 +15,13 @@ const notoSansKR = Noto_Sans_KR({
   variable: "--font-noto",
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "700", "900"],
+  display: "swap",
+});
+
+const cinzel = Cinzel({
+  variable: "--font-cinzel",
+  subsets: ["latin"],
+  weight: ["400", "700"],
   display: "swap",
 });
 
@@ -39,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="ko" className="scroll-smooth">
       <body
-        className={`${poppins.variable} ${notoSansKR.variable} font-noto antialiased`}
+        className={`${poppins.variable} ${notoSansKR.variable} ${cinzel.variable} font-noto antialiased`}
       >
         <Header />
         {children}

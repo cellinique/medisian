@@ -10,7 +10,7 @@ const navItems = [
   { label: "HOME", href: "#home" },
   { label: "COMPANY", href: "#company" },
   { label: "BRAND", href: "#brand" },
-  { label: "CELLREAND", href: "#cellreand" },
+  { label: "CELLINIQUE", href: "#cellreand" },
   { label: "SERVICE", href: "#service" },
   { label: "CONTACT", href: "#contact" },
 ];
