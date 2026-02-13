@@ -43,7 +43,7 @@ export default function CellReand() {
                   className="mb-4 object-contain"
                 />
                 <h3
-                  className="font-cinzel text-4xl font-normal tracking-[0.3em] uppercase md:text-5xl"
+                  className="font-cinzel text-2xl font-normal tracking-[0.2em] uppercase sm:text-3xl sm:tracking-[0.3em] md:text-5xl"
                   style={{ color: "#3FABA7" }}
                 >
                   CELLINIQUE
