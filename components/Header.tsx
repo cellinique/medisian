@@ -13,8 +13,6 @@ const navItems = [
   { label: "CELLREAND", href: "#cellreand" },
   { label: "SERVICE", href: "#service" },
   { label: "CONTACT", href: "#contact" },
-  { label: "INQUIRY", href: "#inquiry" },
-  { label: "NOTICE", href: "#" },
 ];
 
 export default function Header() {

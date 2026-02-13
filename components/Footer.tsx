@@ -7,7 +7,7 @@ export default function Footer() {
         <Separator className="mb-6 bg-white/10" />
         <div className="flex flex-col items-center gap-2 text-center text-sm text-white/50">
           <p>
-            (주)메디시안 &nbsp;|&nbsp; 대표자:정선미 &nbsp;|&nbsp; 서울특별시
+            (주)메디시안 &nbsp;|&nbsp; 대표자:정연상 &nbsp;|&nbsp; 서울특별시
             강남구 도산대로 228 연송빌딩 8l &nbsp;|&nbsp; TEL:02-6203-9200
             &nbsp;|&nbsp; FAX:02-6203-9203
           </p>

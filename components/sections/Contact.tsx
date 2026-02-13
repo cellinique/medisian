@@ -48,7 +48,7 @@ export default function Contact() {
             className="flex flex-col items-center justify-center rounded-lg bg-[#0e1c3f] px-8 py-12 text-center lg:px-12"
           >
             <p className="text-lg font-medium text-white/70">
-              셀리앤 가맹점 문의
+              셀리닉 의원 문의
             </p>
             <div className="mt-6 flex items-center gap-3">
               <Phone className="h-8 w-8 text-white/60" />

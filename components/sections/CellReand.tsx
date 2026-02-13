@@ -54,7 +54,7 @@ export default function CellReand() {
                 className="mt-10 rounded-full bg-accent-blue px-10 py-7 text-lg font-medium text-white hover:bg-accent-blue/90"
                 asChild
               >
-                <a href="#">셀리앤 도산대로점 보러가기</a>
+                <a href="#">셀리닉 의원 보러가기</a>
               </Button>
             </CardContent>
           </Card>

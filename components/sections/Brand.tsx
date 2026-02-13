@@ -25,7 +25,7 @@ export default function Brand() {
         className="relative z-10 mx-auto max-w-[800px] px-6 text-center"
       >
         <p className="mx-auto max-w-xl text-base leading-relaxed text-white/70 md:text-lg">
-          줄기세포 전문 클리닉 &apos;셀리앤&apos;을 경영지원을 하고 있습니다.
+          줄기세포 전문 클리닉 &apos;셀리닉 의원&apos;을 경영지원을 하고 있습니다.
           클리닉 개원 후 원활한 운영을 위해 최적화된 시스템 셋팅과 마케팅
           프로그램을 진행합니다.
         </p>
