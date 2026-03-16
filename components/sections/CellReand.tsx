@@ -38,18 +38,19 @@ export default function CellReand() {
                 <Image
                   src="/images/logo/cellinique-logo.png"
                   alt="Cellinique Logo"
-                  width={120}
-                  height={80}
+                  width={160}
+                  height={110}
                   className="mb-4 object-contain"
+                  style={{ filter: "hue-rotate(-140deg) saturate(0.7) brightness(0.85)" }}
                 />
                 <h3
-                  className="font-cinzel text-2xl font-normal tracking-[0.2em] uppercase sm:text-3xl sm:tracking-[0.3em] md:text-5xl"
-                  style={{ color: "#3FABA7" }}
+                  className="font-cinzel text-2xl font-normal tracking-[0.01em] uppercase sm:text-3xl sm:tracking-[0.02em] md:text-5xl"
+                  style={{ color: "#B08D57" }}
                 >
                   CELLINIQUE
                 </h3>
-                <p className="mt-1 text-sm tracking-[0.3em] text-[#3FABA7]/70">
-                  셀리닉 의원
+                <p className="mt-1 text-sm tracking-[0.2em] text-[#B08D57]/70">
+                  BLOOMING ETERNITY
                 </p>
               </div>
 
@@ -59,12 +60,12 @@ export default function CellReand() {
                 줄기세포 전문 클리닉에서
               </p>
               <p className="mt-1 text-lg font-bold text-gray-900 md:text-xl">
-                &lsquo;어제보다 나은 오늘&rsquo;
+                &lsquo;시들지 않는 아름다움&rsquo;
                 <span className="font-normal text-gray-500">을 경험하세요.</span>
               </p>
 
               <Button
-                className="mt-10 rounded-full bg-accent-blue px-10 py-7 text-lg font-medium text-white hover:bg-accent-blue/90"
+                className="mt-10 rounded-full bg-[#9E9E9E] px-10 py-7 text-lg font-medium text-white hover:bg-[#888888]"
                 asChild
               >
                 <a href="https://cellinique.com" target="_blank" rel="noopener noreferrer">
